@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    background-color: gainsboro;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+}
+header{
+    background-color: rgb(225, 250, 185);
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+header h1{
+    color: gray;
+}
+header img{
+    border-radius: 155px;
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    border: 5px solid gray;
+}
+h1, h2{
+    font-family: 'Righteous', cursive;
+    font-size: 35px;
+    text-transform: uppercase;
+    text-align: center;
+}
+main{
+   max-width: 800px;
+   margin: 0 auto;
+   padding: 0px 20px;
+}
+main img{
+    max-width: 100%; 
+}
+h2{
+    font-size: 30px;
+    color: gray;
+}
+p{
+    text-align: justify;
+}
+a{
+    color: gray;
+}
+a:hover{
+    background-color: gray;
+    color: rgb(225, 250, 185);
+}
+footer{
+    background-color: rgb(225, 250, 185);
+    text-align: center;
+    padding: 30px;
+}
+footer p{
+    margin: 0;
+}
+.caption{
+    color: #999999;
+    margin: 0;
+
+}
